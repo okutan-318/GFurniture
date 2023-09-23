@@ -1,7 +1,7 @@
 # GFurniture
 原神の調度品に関する拡張機能です。
 
-[HoYoLABの育成計算機](https://act.hoyolab.com/ys/event/calculator-sea/index.html)で各調度品に[自サイト](https://genshinguide-318.web.app/)の負荷値を表示し、選択した調度品の合計負荷値を計算します。
+[HoYoLABの育成計算機の調度品のタブ](https://act.hoyolab.com/ys/event/calculator-sea/index.html?type=4#/)で各調度品に[自サイト](https://genshinguide-318.web.app/)の負荷値を表示し、選択した調度品の合計負荷値を計算します。
 
 ![preview_n1](https://github.com/okutan-318/GFurniture/blob/main/preview_n1.png)
 
