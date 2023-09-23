@@ -1,0 +1,44 @@
+{
+    "manifest_version": 3,
+    "name": "GFurniture",
+    "version": "1.0.0",
+    "description": "原神の調度品に関する機能を提供します。",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://act.hoyolab.com/ys/event/calculator-sea/index.html*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ],
+    "options_ui": {
+        "open_in_tab": true,
+        "page": "options.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "notifications",
+        "alarms",
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_icon": "icon64.png"
+    },
+    "icons": {
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "64": "icon64.png",
+        "128": "icon128.png"
+    }
+}

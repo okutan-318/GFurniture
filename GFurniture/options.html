@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Genshin__318</title>
+    <link rel="shortcut icon" href="favicon64.ico" />
+
+    <style>
+        body {
+            width: fit-content;
+        }
+
+        div.board {
+            white-space: nowrap;
+            margin: 0 12px;
+            width: fit-content;
+            border: solid 1px #555;
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        div.line {
+            margin: 0 2px;
+            padding: 2px;
+        }
+
+        button#save {
+            margin-top: 8px;
+            padding: 2px 12px;
+        }
+
+        span.annotation {
+            color: #666;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>設定</h2>
+    <div class="board">
+        
+        <div class="line">
+        </div>
+    
+        <button id="save">保存</button>
+        <label id="status"></label>
+    </div>
+
+    <!--<script src="libs.js"></script>-->
+    <script type="module" src="options.js"></script>
+</body>
+</html>
