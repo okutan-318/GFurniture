@@ -6,8 +6,12 @@
 ![preview_n1](https://github.com/okutan-318/GFurniture/blob/main/preview_n1.png)
 
 Version 1.0.0 時点でPC版ブラウザのChromeに対応しております。 また日本語のみの表示に対応しています。
+
+# 導入方法(Chrome)(ウェブストア)
+本拡張機能はChrome ウェブストアにて公開しております
+[ストアページ](https://chrome.google.com/webstore/detail/mjajaldemipmgncdjmijdohbnaelfiif)
  
-# 導入方法(Chrome)
+# 導入方法(Chrome)(Zip)
 ①Zipファイルをダウンロードします https://github.com/okutan-318/GFurniture/raw/main/GFurniture.zip
 
 ②ダウンロードしたファイルを、適宜管理しやすい場所に展開します。
