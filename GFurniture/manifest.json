@@ -22,15 +22,10 @@
         "page": "options.html"
     },
     "permissions": [
-        "tabs",
-        "activeTab",
-        "notifications",
-        "alarms",
-        "storage",
-        "scripting"
     ],
     "host_permissions": [
-        "<all_urls>"
+        "https://act.hoyolab.com/*",
+        "https://genshinguide-318.web.app/*"
     ],
     "action": {
         "default_icon": "icon64.png"
